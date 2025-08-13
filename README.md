@@ -77,8 +77,11 @@ build\crypto_tracker.exe
 
 ![Crypto Tracker Screenshot](assets/2.png)
 
-**Видео или GIF с демонстрацией:**
-![Crypto Tracker Demo](assets/3.mp4)
+**Видео с демонстрацией:**   
+
+<video width="640" height="150" controls>
+  <source src="assets/3.mp4" type="video/mp4">
+</video>
 
 ## Возможные ошибки
 
