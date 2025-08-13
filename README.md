@@ -79,9 +79,7 @@ build\crypto_tracker.exe
 
 **Видео с демонстрацией:**   
 
-<video width="640" height="150" controls>
-  <source src="assets/3.mp4" type="video/mp4">
-</video>
+[Видео с демонстрацией](assets/3.mp4)  
 
 ## Возможные ошибки
 
