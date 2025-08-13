@@ -1,0 +1,1 @@
+/Library/Developer/CommandLineTools/usr/bin/c++  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.4.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/crypto_tracker.dir/src/main.cpp.o -o crypto_tracker  /opt/homebrew/Cellar/openssl@3/3.5.1/lib/libssl.dylib /opt/homebrew/Cellar/openssl@3/3.5.1/lib/libcrypto.dylib

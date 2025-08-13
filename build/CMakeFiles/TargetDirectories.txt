@@ -1,0 +1,3 @@
+/Users/anastasia/Desktop/Crypto-Tracker-CLI/build/CMakeFiles/crypto_tracker.dir
+/Users/anastasia/Desktop/Crypto-Tracker-CLI/build/CMakeFiles/edit_cache.dir
+/Users/anastasia/Desktop/Crypto-Tracker-CLI/build/CMakeFiles/rebuild_cache.dir
