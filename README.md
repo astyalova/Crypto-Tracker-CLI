@@ -16,39 +16,35 @@
 
 * Получение актуальной цены криптовалюты (Bitcoin, Ethereum, Dogecoin и других).
 * Отображение изменений цены в процентах с цветовой индикацией: зелёный ↑ — рост, красный ↓ — падение.
-* Автообновление информации каждые 5 секунд.
+* Автообновление информации каждые 15 секунд.
 * Поддержка MacOS, Linux и Windows.
 
 ## Как получить API Key
 
 1. Перейдите на сайт [CoinGecko](https://www.coingecko.com/) и зарегистрируйтесь.
 2. Создайте API Key, если требуется (для большинства публичных данных CoinGecko ключ не нужен).
-3. В файле `main.cpp` или в исполняемом приложении введите свой ключ при запросе:
-
-   ```cpp
-   std::string api_key = "ВАШ_API_КЛЮЧ"; 
-   ```
 
 ## Структура проекта
 
 crypto\_tracker/
 ├── lib/                  # Сторонние библиотеки
-│   ├── httplib.h         # HTTP-клиент с поддержкой SSL
+│   ├── httplib.h         # HTTP-клиент 
 │   └── nlohmann/         # JSON-парсер
 ├── src/
-│   └── main.cpp          # Основной код программы
-├── build/                # Папка для собранных файлов (создаётся вручную)
+│   └── main.cpp          # код программы
+├── build/                # Папка для собранных файлов 
 ├── README.md             # Этот файл
-
+├── assets/               # Скриншоты и видео
 ## Сборка и запуск
 
 ### MacOS / Linux
 
 ```bash
-cd crypto_tracker
-mkdir build
-g++ src/main.cpp -o build/crypto_tracker -Ilib -std=c++20 -lssl -lcrypto -lpthread
-./build/crypto_tracker
+mkdir build # в корневой директории
+cd build
+cmake ..
+make
+./crypto_tracker
 ```
 
 ### Windows (MinGW)
@@ -73,10 +69,13 @@ build\crypto_tracker.exe
 ## Визуальное представление работы
 
 **Скриншот работы приложения:**
-![Crypto Tracker Screenshot](path/to/your/screenshot.png)
+
+![Crypto Tracker Screenshot](assets/1.png)  
+
+![Crypto Tracker Screenshot](assets/2.png)
 
 **Видео или GIF с демонстрацией:**
-![Crypto Tracker Demo](path/to/your/demo.gif)
+![Crypto Tracker Demo](assets/3.mp4)
 
 ## Возможные ошибки
 
